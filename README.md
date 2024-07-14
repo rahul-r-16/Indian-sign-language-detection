@@ -1,26 +1,24 @@
-Indian Sign Language Detection
+# Indian Sign Language Detection
 
-Overview:
+## Overview
 
-This repository contains the code and resources for building a deep learning model to detect Indian Sign Language gestures using TensorFlow/Keras.
+This repository contains code for a deep learning model designed to detect Indian Sign Language (ISL) gestures in real-time using TensorFlow/Keras.
 
-Features:
+### Features
 
-Data Preprocessing:
-Images are preprocessed using OpenCV for resizing, normalization, and augmentation.
+- **Data Preprocessing**: Images are preprocessed using OpenCV for resizing, normalization, and augmentation.
+- **Model Architecture**: Utilizes a Convolutional Neural Network (CNN) for feature extraction and classification.
+- **Training**: The model is trained on a dataset containing hand gesture images corresponding to 24 different ISL signs.
+- **Evaluation**: Performance metrics such as accuracy and loss are monitored during training and evaluated on a separate test dataset.
+- **Deployment**: Instructions for deploying the trained model for real-time inference.
 
-Model Architecture: 
-Utilizes a Convolutional Neural Network (CNN) for feature extraction and classification.
+## Dataset
 
-Training: 
-The model is trained on a dataset using TensorFlow/Keras, with performance metrics monitored during training.
+The dataset consists of images categorized into train and test sets for training and validation purposes. It includes various hand gestures from the Indian Sign Language.
 
-Evaluation:
-Performance is evaluated on a separate test dataset to assess accuracy and loss.
+## Installation
 
-Deployment: 
-Instructions for deploying the trained model for real-time inference.
+To run the code, ensure you have Python 3.x installed along with the following dependencies:
 
-Dataset:
-
-The dataset used for training and evaluation consists of images of hand gestures corresponding to 24 different ISL signs. The images are organized into train and test sets for model training and validation.
+```bash
+pip install tensorflow opencv-python matplotlib
