@@ -1,16 +1,14 @@
+Indian Sign Language Detection
 
-##Indian Sign Language Detection Using Deep Learning
+Overview
+This repository contains the code and resources for building a deep learning model to detect Indian Sign Language gestures using TensorFlow/Keras.
 
-##Overview
-This repository contains code and resources for developing a real-time Indian Sign Language (ISL) detection system using deep learning and machine learning techniques. The project aims to facilitate communication for individuals with hearing and speech impairments by translating ISL gestures into text or speech in real-time.
+Features
+Data Preprocessing: Images are preprocessed using OpenCV for resizing, normalization, and augmentation.
+Model Architecture: Utilizes a Convolutional Neural Network (CNN) for feature extraction and classification.
+Training: The model is trained on a dataset using TensorFlow/Keras, with performance metrics monitored during training.
+Evaluation: Performance is evaluated on a separate test dataset to assess accuracy and loss.
+Deployment: Instructions for deploying the trained model for real-time inference.
 
-##Features
-Data Collection: Scripts and tools for collecting and preprocessing ISL gesture images.
-Model Development: Implementation of Convolutional Neural Networks (CNNs) using TensorFlow and Keras for gesture recognition.
-Real-time Detection: Integration of the trained models into a real-time application using OpenCV for video feed processing.
-Evaluation: Metrics and tools for evaluating model performance, including accuracy, precision, recall, and F1-score.
-Requirements
-Python 3.x
-TensorFlow
-Keras
-OpenCV
+Dataset
+The dataset used for training and evaluation consists of images of hand gestures corresponding to 24 different ISL signs. The images are organized into train and test sets for model training and validation.
