@@ -21,6 +21,6 @@ The dataset consists of images categorized into train and test sets for training
 
 To run the code, ensure you have Python 3.x installed along with the following dependencies:
 
-##Result
+## Result
 
 https://github.com/user-attachments/assets/4544465b-dc49-41ad-af15-8d5df754baf0
